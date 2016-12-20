@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>homepage</title>
+  </head>
+<link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/friendlyView.css" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">gallary</a>
+  <a href="#">contact us<a>
+  <a href="#">about</a>
+  </div>
+
+  <span class="font tty-1" onclick="openNav()"><i class="material-icons">&#xe5d2;</i></span>
+
+  <script>
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+  <script>
+
+  var isiOS = /iPhone|iPad|iPod/i.test(navigator.userAgent)
+
+
+  if (!isiOS){
+   window.addEventListener('scroll', function(){ // on page scroll
+    requestAnimationFrame(parallaxbubbles) // call parallaxbubbles() on next available screen paint
+   }, false)
+
+   window.addEventListener('resize', function(){ // on window resize
+    var scrolltop = window.pageYOffset // get number of pixels document has scrolled vertically
+    var scrollamount = (scrolltop / (scrollheight-windowheight)) * 100 // get amount scrolled (in %)
+    fish.style.left = -100 + scrollamount + '%' // set position of fish in percentage (starts at -100%)
+   }, false)
+  }
+  </script>
+  <div class="rpi-m-1 header">
+    <div class="opi">
+          <p class="fa" style="margin-left: 70px; font-size: 21; position: absolute; top:-5;">
+      &#xf1b9;
+    </p>
+   <h2 class="foo_bb">Cars</h2>
+   <h2 href="#" class="gallary">gallary</h2>
+   <h2 class="about">about</h2>
+   <h2 class="contact">contact us</h2>
+  </div>
+</div>
+
+<div class="parallax">
+
+</div>
+  <body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+<p class="amz">View the very best, high resolution sport cars<br>from around the world wide web!</p>
+<img id="adm" src="images/359278.jpg" alt="car1"/>
+<p class="amd">
+  Sports cars all for you. audi R8's just for you to view.
+</p>
+<img id="adm2" src="images/images.jpg" alt="car2"/>
+
+
+<div id="footer">
+  <div class="std">
+
+  <p class="p">
+    example-site-1
+  </p>
+</div>
+
+</div>
+
+  </body>
+</html>

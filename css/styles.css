@@ -1,0 +1,124 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,100,300,500,700);
+
+body {
+margin: 0;
+}
+#adm{
+position: absolute;
+ top: 620px;
+ left: 37%;
+ z-index: -1;
+ width: 20%;
+  height: auto;
+  -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+ border-radius: 5px;
+}
+.amd{
+  font-family: ubuntu;
+  position: absolute;
+  top: 1000px;
+  left: 65%;
+}
+.amz{
+  font-family: ubuntu;
+  position: absolute;
+  top: 700px;
+  left: 50px;
+}
+#adm2 {
+  position: absolute;
+   top: 970px;
+   left: 20%;
+   width: 20%;
+    height: auto;
+    z-index: -1;
+    -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+   border-radius: 5px;
+}
+.contact {
+  font-size: 17px;
+  font-family: ubuntu;
+    margin-top: -35px;
+  margin-left: 315px;
+  cursor: pointer;
+}
+.contact:hover{
+  color: #c1bba4;
+}
+.about {
+  font-size: 17px;
+  font-family: ubuntu;
+    margin-top: -35px;
+  margin-left: 430px;
+  cursor: pointer;
+}
+.about:hover{
+  color: #c1bba4;
+}
+.gallary {
+  font-size: 17px;
+  font-family: ubuntu;
+  margin-top: -49px;
+  margin-left: 220px;
+  cursor: pointer;
+}
+.gallary:hover{
+  color: #c1bba4;
+}
+.parallax {
+    /*The image used*/
+    background-image: url("../images/RUNCLUB.png");
+    /* Set a specific height*/
+    height: 600px;
+    width: 100%;
+  background-attachment: fixed;
+  background-color: #fff;
+  background-position: 0px;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size:    cover;
+  background-size:         cover;
+}
+.std {
+
+}
+.p {
+  margin-left: 80px;
+  font-family: ubuntu;
+}
+#footer {
+  position: absolute;
+    left: 1px;
+   top: 1200px;
+  padding-bottom: 0px;
+  line-height:30px;
+  color: white;
+  background-color: #778ac4;
+  height: 80px;
+  width: 100%;
+border-radius: 4px;
+ display: inline-block;
+ background: linear-gradient(270deg, #778ac4, #30cadb, #20929f, #0b5d83, #5610a8);
+background-size: 1000% 1000%;
+
+}
+.opi {
+
+}
+.foo_bb {
+  font-size: 25px;
+  margin-top: 10px;
+  margin-left: 100px;
+  font-family: ubuntu;
+cursor: pointer;
+}
+
+
+
+@keyframes flip {
+    from {transform:rotateX(-105deg);}
+    to {transform: rotateX(0deg);}
+}
